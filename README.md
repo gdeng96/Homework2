@@ -2,6 +2,15 @@
 
 This is an example R package for 3 functions.
 
+## Installing the R package
+```
+library(devtools)
+install_github("gdeng96/Homework2") #install the package
+library(Homework2) #loads package
+
+```
+
+
 ## Tutorial Code
 
 ## ols_solve()
