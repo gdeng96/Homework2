@@ -17,6 +17,8 @@
 #' visualize_coord(output)
 
 visualize_coord <- function(solpath){
+  library(ggplot2)
+  library(reshape2)
   solpath$lgrid <- log(solpath$lgrid)
   df <- melt(solpath, id.vars="lgrid", variable.name="X")
   ggplot(df, aes(lgrid,value)) + geom_line(aes(colour=as.factor(X))) + ggtitle("Solution Path") + xlab("log(lambda)") + ylab("Coefficients")
