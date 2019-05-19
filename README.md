@@ -1,8 +1,10 @@
 # Homework2
 
-#Tutorial Code
+This is an example R package for 3 functions.
 
-#ols_solve()
+## Tutorial Code
+
+## ols_solve()
 
 ```
 A3 = tridiagonal(3, -1, 100)
@@ -14,7 +16,7 @@ solve_ols(A=A3, b=b3, x0=rep(0, nrow(A3)), method="Jacobi")
 solve_ols(A=A3, b=b3, x0=rep(0, nrow(A3)), method="Jacobi-Parallel")
 ```
 
-#algo_leverage()
+## algo_leverage()
 ```
 set.seed(123)
 fullX <- rt(500, df=6)
@@ -28,7 +30,7 @@ algo_leverage(fullY, data.frame(fullX), rsize = 200, method="Uniform")
 algo_leverage(fullY, data.frame(fullX), rsize = 200, method="Leverage")
 ```
 
-#elnet_coord()
+## elnet_coord()
 ```
 library(MASS)
 set.seed(123)
