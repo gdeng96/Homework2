@@ -1,13 +1,13 @@
 Package: Homework2
-Title: What the Package Does (One Line, Title Case)
+Title: Statistical Computing
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Grace",
+           family = "Deng",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "gd345@cornell.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: This package has functions for 3 purposes: (1) solving linear systems, (2) leveraging in big data regression, and (3) coordinate descent algorithm for elastic net. 
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
